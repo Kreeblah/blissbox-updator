@@ -1,5 +1,11 @@
 This is a fork of bootloadHID which is preconfigured to update Bliss-Box hardware.  In order to avoid conflicting with canonical bootloadHID binaries, this project compiles to "blissbox-updator".
 
+Note that on macOS Mojave (and possibly other versions; this was observed on 10.15.2), the following error may be displayed upon flashing:
+
+Warning: could not detach kernel HID driver: Function not implemented
+
+In my testing so far, this error does not appear to impact functionality when flashing new firmware to the device.
+
 The original README is below.
 
 ================================================================================
