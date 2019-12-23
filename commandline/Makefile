@@ -28,7 +28,7 @@ ARCH_COMPILE=
 ARCH_LINK=		
 
 OBJ=		main.o usbcalls.o
-PROGRAM=	bootloadHID$(EXE_SUFFIX)
+PROGRAM=	blissbox-updator$(EXE_SUFFIX)
 
 all: $(PROGRAM)
 

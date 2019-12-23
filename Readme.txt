@@ -1,3 +1,9 @@
+This is a fork of bootloadHID which is preconfigured to update Bliss-Box hardware.  In order to avoid conflicting with canonical bootloadHID binaries, this project compiles to "blissbox-updator".
+
+The original README is below.
+
+================================================================================
+
 This is the README file for bootloadHID.
 
 BootloadHID is a USB boot loader for AVR microcontrollers. It can be used on
